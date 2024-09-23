@@ -1,4 +1,4 @@
-# Amelia Lang
+# Amelia
 
 Amelia is meant to be a language for describing data in a similar manner as json or yaml, with only diference being that you can do it in plain english-like format. It allows yo to describe your data (or actions...) in a structured and programmaticcaly parsable way, yet allows anyone to easily realises what's written, since its grammar aims to be as close to plain English as possible. Currently it's still under active development and in alpha mode.
 
