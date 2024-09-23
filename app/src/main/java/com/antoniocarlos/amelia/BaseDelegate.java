@@ -200,7 +200,8 @@ public class BaseDelegate implements Delegate<UnionListMap>{
    * getData implementation. @see Delegate#getData.
    * 
    * @param configs a map with key value pairs to be used to postprocess the output data.
-   *
+   * @return the unionlistmap instance that holds all of the data after all statements.
+   * 
    */
   @Override
   public UnionListMap getData(Map<String, Object> config){

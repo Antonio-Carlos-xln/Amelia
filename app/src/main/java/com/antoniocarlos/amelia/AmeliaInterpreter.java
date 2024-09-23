@@ -61,7 +61,7 @@ public class AmeliaInterpreter{
      *
      * @param rawInput the actual content that will be processed.
      * @param configs the configuration Dictionaruy that allows tells the delegate how to postprocess the output.
-     * @returns the final form ofthe data produced by the current delegate by processing given input.
+     * @return the final form ofthe data produced by the current delegate by processing given input.
      * @throws IndexOutOfBoundsException if any piece of the input attempts to acess an element outside of he bounds of the any list (a parsing exception will be raised, if there's an attempt touse negative indexes).
      * @throws NullPointerException if an abscent name is passed for a nested element in the datastructure.
      * @throws IllegalKeyTypeException if any point the codes atempts to retrieve named keys from lists or numerical keys from a dictionary.
@@ -81,7 +81,7 @@ public class AmeliaInterpreter{
      * This method does the actual processing, setting up and invoking antlr classes pipeline to allow processing of the input file.
      *
      * @param rawInput the actual content that will be processed.
-     * @returns the final form ofthe data produced by the current delegate by processing given input.
+     * @return the final form ofthe data produced by the current delegate by processing given input.
      * @throws IndexOutOfBoundsException if any piece of the input attempts to acess an element outside of he bounds of the any list (a parsing exception will be raised, if there's an attempt touse negative indexes).
      * @throws NullPointerException if an abscent name is passed for a nested element in the datastructure.
      * @throws IllegalKeyTypeException if any point the codes atempts to retrieve named keys from lists or numerical keys from a dictionary.

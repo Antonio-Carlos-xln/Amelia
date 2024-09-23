@@ -1,0 +1,11 @@
+let $_message of $messages 
+                   with "client" as Emitter,
+                        "company" as Receiver,
+                        "high" as Priority
+    let $_reply of $messages
+             with "company" as Emitter,
+                  "client" as Receiver,
+                  "low" as Priority
+    set "partner" as Emitter of $0_message of $messages
+    set  "medium" as Priority of $1_message of $messages     
+       
