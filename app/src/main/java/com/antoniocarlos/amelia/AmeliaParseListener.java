@@ -59,7 +59,7 @@ class AmeliaParseListener extends AmeliaBaseListener{
    * Helper method for processing composed IDs.
    * 
    * @param id A single (possibly composed) id (e.g. Foo of Bar of Baz).
-   * @returns a list with all the referenced ids.
+   * @return a list with all the referenced ids.
    *
    */
   private List<String> processID(String id){
@@ -117,7 +117,7 @@ class AmeliaParseListener extends AmeliaBaseListener{
    * Helper method to process the data of a "val" rule.
    * 
    * @param ctx parsing context for  "val" rule provided by antlr.
-   * @returns the object in the right primitive boxxing type or a string containing a single (possibly compose) id.
+   * @return the object in the right primitive boxxing type or a string containing a single (possibly compose) id.
    *
    */
   private Object processValueType(AmeliaParser.ValContext val){
